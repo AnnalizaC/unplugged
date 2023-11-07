@@ -403,8 +403,8 @@ aside .content-wrapper .form {
     flex-basis: 50%;
 }
 
-.features .features-item-description {
-    width: 62%;
+.features .features-items-description {
+    width: 50%;
 }
 
 /* Reviews */

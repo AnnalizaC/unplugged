@@ -87,12 +87,59 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* General Styles */
+
+html {
+  font-size: 1rem;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  text-align: left;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.875em;
+}
+
+h3,
+h4 {
+  font-family: 'Poppins', sans-serif;
+  margin: 20px 0;
+  font-size: 1.125em;
+}
+
+p {
+  font-size: 0.875em;
+  line-height: 1.285;
+}
+
+img {}
+
+figure {}
+
+address {
+  font-style: normal;
+}
+
 .content-wrapper {
   /*outline: 3px dotted red;*/
   width: 90%;
   margin: 50px 0;
 }
-  
+
 /* -------------------- Base Header - Footer Styles -------------------- */
 
 header {
@@ -141,7 +188,7 @@ footer .content-wrapper {
 }
 
 footer .contact {
-  margin-bottom: 50px; 
+  margin-bottom: 50px;
 }
 
 footer .social-icons {
@@ -348,191 +395,191 @@ aside {
 
 @media only screen and (min-width: 768px) {
   /* Tablet styles here */
- 
+
   /* General styles */
   .content-wrapper {
     max-width: 640px;
     margin: 100px 0;
-}
+  }
 
-/* Header */
+  /* Header */
 
-header {
+  header {
     padding: 33px 0;
-}
+  }
 
-header .content-wrapper {
+  header .content-wrapper {
     width: 100%;
     justify-content: space-between;
-}
+  }
 
-header nav {
+  header nav {
     width: 20%;
-}
+  }
 
-header nav ul {
+  header nav ul {
     justify-content: space-between;
-}
+  }
 
-.header-divider {
+  .header-divider {
     display: none;
-}
+  }
 
-/* Hero Area */
+  /* Hero Area */
 
-/* Aside */
-aside .content-wrapper {
+  /* Aside */
+  aside .content-wrapper {
     margin: 50px 0;
     display: flex;
     justify-content: space-between;
     align-content: flex-start;
-}
+  }
 
-aside .content-wrapper .form-description,
-aside .content-wrapper .form {        
-    width: 40%;        
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
+    width: 40%;
     margin: 0;
-}
+  }
 
-/* Features */
+  /* Features */
 
-.features article {
+  .features article {
     display: flex;
     align-items: center;
     flex-flow: column wrap;
     flex-basis: 50%;
-}
+  }
 
-.features .features-items-description {
+  .features .features-items-description {
     width: 50%;
-}
+  }
 
-/* Reviews */
-.reviews article {
+  /* Reviews */
+  .reviews article {
     display: flex;
     justify-content: space-between;
-}
+  }
 
-.reviews article div {
-    width: 49%;       
-}
+  .reviews article div {
+    width: 49%;
+  }
 
-/* Footer */
-footer .content-wrapper {
+  /* Footer */
+  footer .content-wrapper {
     width: 65%;
-}
+  }
 
-.footer-content {
+  .footer-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+  }
 
-footer .contact {
+  footer .contact {
     margin-bottom: 0;
-}
+  }
 
-footer .copyright {
+  footer .copyright {
     width: 100%;
-}
+  }
 
-/* ==========================================================================
+  /* ==========================================================================
    About Page
    ========================================================================== */
- 
-.mission-content {
+
+  .mission-content {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     padding-top: 20px;
-}
+  }
 
-.mission-content p {
+  .mission-content p {
     width: 45%;
-}
+  }
 
-.contact-section .content-wrapper h2 {
+  .contact-section .content-wrapper h2 {
     width: 80%;
-}
+  }
 
-.contact-content {
+  .contact-content {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-}
+  }
 
-/* ==========================================================================
+  /* ==========================================================================
    FAQ Page
    ========================================================================== */
   .faq .content-wrapper {
-      justify-content: space-between;
-    }
-    
-  .faq-content {
-      flex-basis: 45%;
-    }
- 
-  .faq h2 {
-      width: 100%;
-    }
-
+    justify-content: space-between;
   }
+
+  .faq-content {
+    flex-basis: 45%;
+  }
+
+  .faq h2 {
+    width: 100%;
+  }
+
+}
 
 
 @media only screen and (min-width: 1200px) {
   /* Desktop styles here */
 
-header {
-  padding: 15px 0;
-}
+  header {
+    padding: 15px 0;
+  }
 
-.content-wrapper {
-  max-width: 960px;
-}
+  .content-wrapper {
+    max-width: 960px;
+  }
 
- /* Hero */
-.hero-area h1 {
-  width: 80%;
-}
+  /* Hero */
+  .hero-area h1 {
+    width: 80%;
+  }
 
-/* Aside */
-aside .content-wrapper {
-  justify-content: space-around;
-}
+  /* Aside */
+  aside .content-wrapper {
+    justify-content: space-around;
+  }
 
-aside .content-wrapper .form-description,
-aside .content-wrapper .form {
-  width: 30%;
-}
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
+    width: 30%;
+  }
 
-/* Features */
-.features h2 {
-  width: 90%;
-}
+  /* Features */
+  .features h2 {
+    width: 90%;
+  }
 
-.features article {
-  flex-basis: 33%;
-}
+  .features article {
+    flex-basis: 33%;
+  }
 
-/* Reviews */ 
-.reviews article div {
-  width: 42%;
-}
+  /* Reviews */
+  .reviews article div {
+    width: 42%;
+  }
 
-/* ==========================================================================
+  /* ==========================================================================
 About Page
 ========================================================================== */
-.mission h2,
-.contact-section .content-wrapper h2 {
-  width: 95%; 
-}
+  .mission h2,
+  .contact-section .content-wrapper h2 {
+    width: 95%;
+  }
 
-/* ==========================================================================
+  /* ==========================================================================
 FAQ Page
 ========================================================================== */
-.faq h2 {
-  width: 100%;
-}
+  .faq h2 {
+    width: 100%;
+  }
 
 }
 
@@ -543,6 +590,7 @@ FAQ Page
    ========================================================================== */
 
 @media print {
+
   *,
   *::before,
   *::after {
@@ -610,4 +658,3 @@ FAQ Page
     page-break-after: avoid;
   }
 }
-

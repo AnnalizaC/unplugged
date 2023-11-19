@@ -98,6 +98,7 @@ body {
   font-size: 1em;
   text-align: left;
   color: #e2e3ed;
+  background-color: #202322;
 }
 
 ul,
@@ -116,6 +117,7 @@ h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
   font-weight: 500;
+  margin: 0;
 }
 
 h3,
@@ -311,7 +313,6 @@ input[type=button] {
 .features .features-items {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
   flex-flow: row wrap;
 }
 
@@ -572,6 +573,10 @@ input[type=button] {
     margin-bottom: 20px;
   }
 
+  .features .features-items {
+    align-items: flex-start;
+  }
+
   .features article {
     display: flex;
     align-items: center;
@@ -581,6 +586,10 @@ input[type=button] {
 
   .features .features-item-description {
     width: 62%;
+  }
+
+  .features i {
+    margin-bottom: 30px;
   }
 
   /* Reviews */
@@ -612,7 +621,6 @@ input[type=button] {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction: row;
   }
 
   footer .contact {
@@ -628,11 +636,16 @@ input[type=button] {
     line-height: 1.285;
   }
 
+  footer .social-icons {
+    justify-content: space-between;
+    width: 12.5em;
+  }
+
   footer .copyright {
     width: 100%;
   }
 
-  /* ==========================================================================
+/* ==========================================================================
    About Page
    ========================================================================== */
 
@@ -647,9 +660,9 @@ input[type=button] {
     width: 45%;
   }
 
-.map figure {
-  padding-bottom: 45.5%;
-}
+  .map figure {
+    padding-bottom: 45.5%;
+  }
 
   .contact-section .content-wrapper h2 {
     width: 80%;
@@ -665,7 +678,7 @@ input[type=button] {
     font-size: 1.5em;
   }
 
-  /* ==========================================================================
+/* ==========================================================================
    FAQ Page
    ========================================================================== */
   .faq .content-wrapper {
@@ -757,7 +770,7 @@ input[type=button] {
     font-size: 1.875em;
   }
 
-  /* ==========================================================================
+/* ==========================================================================
 About Page
 ========================================================================== */
   .mission h2,
@@ -774,7 +787,7 @@ About Page
     font-size: 1.875em;
   }
 
-  /* ==========================================================================
+/* ==========================================================================
 FAQ Page
 ========================================================================== */
   .faq h2 {
